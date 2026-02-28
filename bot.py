@@ -1,6 +1,6 @@
 import telebot
 import main as RovoPicAI
-TOKEN = "8355262126:AAExi-EFrxJ-jp4uQ7AY9moYXjCTrgeVElw"
+TOKEN = "токен"
 bot = telebot.TeleBot(TOKEN)
 ai = RovoPicAI.AI()
 
