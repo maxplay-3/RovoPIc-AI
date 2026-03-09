@@ -1,27 +1,9 @@
-# RovoPic AI - распознаватель качества изображений 
-это ии , который проверяет качество фото на яркость,контраст,резкость по стандартам качества
+# RovoPic AI - Image Quality Recognizer
+This is an AI that checks photo quality for brightness, contrast, and sharpness according to quality standards.
 
-этот мини проект использует использует py open cv для распознавания изображений
+This mini-project uses py open cv for image recognition.
 
-пример использования RovoPicAI:
+Using RovoPicAI:
+Run the test.py script and you can use RovoPicAI there.
 
-```python
-import main 
-# создаем класс для ии
-ai = main.AI()
-# определяем путь к картинке
-IMAGE_PATH = "путь к вашему изображению"
-# создаем экземляр класса Image в котром находятся все параметры изображения
-класс = main.Image(IMAGE_PATH)
-# и наконецто определям оценку и выводим
-оценка = ai.evaluate_image(класс)
-print(оценка)
-```
-оценка выводится в баллах где самый плохой бал - 0.3 а хороший - 3
-
-
-и также в проекте есть телеграм бот который использует RovoPicAI
-
-
-
-
+The image score is displayed in points, where the worst score is 0.3 and the best score is 3.
